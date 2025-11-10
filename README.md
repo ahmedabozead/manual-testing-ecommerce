@@ -50,7 +50,7 @@ To verify that all core functionalities of the e-commerce website operate as exp
 | `Test_Plan.pdf` | Contains objectives, scope, tools, and environment details |
 | `Test_Cases.xlsx` | 34 detailed test cases with actual and expected results |
 | `Bug_Report.xlsx` | Logged bugs with severity, priority, and environment details |
-
+| `test_summary.md` | summary about this project  |
 ---
 
 ##  Example Bugs Found

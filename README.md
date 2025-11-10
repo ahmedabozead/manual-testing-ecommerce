@@ -53,6 +53,15 @@ To verify that all core functionalities of the e-commerce website operate as exp
 | `test_summary.md` | summary about this project  |
 ---
 
+
+
+## Project Documents
+- [📘 Test Plan](./Test_Plan.md)
+- [📊 Test Cases (Excel)](./test_case_ecommerce_website.xlsx)
+- [🐞 Bug Report (Excel)](./bug_report_ecommerce_website.xlsx)
+- [🧾 Test Summary](./test_summary.md)
+
+
 ##  Example Bugs Found
 | Bug ID | Summary | Severity | Priority | Status |
 |--------|----------|-----------|-----------|--------|

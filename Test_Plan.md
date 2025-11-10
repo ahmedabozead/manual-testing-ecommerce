@@ -99,14 +99,6 @@ The testing focuses on verifying the **Login, Registration, Product Search, Add 
 
 ---
 
-## ⚠️ 10. Risks & Mitigation
-
-| **Risk** | **Impact** | **Mitigation Plan** |
-|-----------|------------|---------------------|
-| Late delivery of build | High | Coordinate with dev team for ETA updates |
-| Incorrect test data | Medium | Validate test data before execution |
-| Environment downtime | Medium | Backup test plan and reschedule execution |
-
 ---
 
 ## 📊 11. Test Summary Overview
@@ -140,3 +132,4 @@ The testing focuses on verifying the **Login, Registration, Product Search, Add 
 🧑‍💻 **Role:** QA Tester  
 🗓️ **Date:** November 2025  
 📍 **Testing Type:** Manual Functional Testing  
+

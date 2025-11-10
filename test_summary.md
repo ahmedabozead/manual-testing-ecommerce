@@ -1,59 +1,76 @@
-🧾 Test Summary Report – E-Commerce Website (Manual Testing)
-🧠 Objective
+# 📊 Test Summary Report – E-Commerce Website (Manual Testing)
 
-The purpose of this testing was to validate the main user functions of the Tricentis Demo Web Shop website and ensure that all critical workflows operate as expected.
+## 🧩 1. Overview
+This Test Summary Report provides a comprehensive overview of the **manual functional testing** performed on the *Demo Web Shop* application.  
+Testing focused on verifying critical user flows such as **Login, Registration, Product Search, Cart Management, and Checkout** to ensure a smooth and reliable shopping experience.
 
-🧩 Scope of Testing
+---
 
-Testing covered:
+## 🧱 2. Test Execution Details
 
-User registration & login
+| Item | Description |
+|------|--------------|
+| **Project Name** | E-Commerce Website (Demo Web Shop) |
+| **Testing Type** | Manual Functional Testing |
+| **Tester** | Ahmed Abozead |
+| **Test Environment** | Windows 10 / Google Chrome (Latest) |
+| **Execution Period** | 3 Days (Including Bug Reporting) |
+| **Tools Used** | Excel (Test Cases & Bug Report), Postman (optional), GitHub (Documentation) |
 
-Product search
+---
 
-Add to cart & remove items
+## 🧪 3. Test Summary Statistics
 
-Checkout process
+| Metric | Count | Percentage |
+|--------|--------|-------------|
+| **Total Test Cases** | 34 | 100% |
+| **Passed** | 30 | 88% |
+| **Failed** | 4 | 12% |
+| **Execution Coverage** | 100% | ✅ Fully Executed |
 
-Error message validation
+---
 
-Basic UI and navigation checks
+## 🐞 4. Defect Summary
 
-⚙️ Test Environment
-Item	Details
-Application	Tricentis Demo Web Shop
-URL	https://demowebshop.tricentis.com
+| Bug ID | Severity | Description | Status |
+|--------|-----------|--------------|---------|
+| **BUG001** | High | Account not locked after multiple failed login attempts | Open |
+| **BUG002** | Medium | Missing password visibility toggle | Open |
+| **BUG003** | Critical | Password reset email not received | Open |
+| **BUG004** | Critical | Order confirmation email not sent | Open |
 
-Browser	Google Chrome (Latest)
-OS	Windows 10
-Network	Stable internet connection
-📋 Test Execution Summary
-Total Test Cases	Passed	Failed	Execution Rate
-34	30	4	100%
-🐞 Defect Summary
-Bug ID	Severity	Status	Description
-BUG001	High	Open	Account not locked after multiple failed login attempts
-BUG002	Medium	Open	Missing password visibility toggle
-BUG003	Critical	Open	Password reset email not received
-BUG004	Critical	Open	Order confirmation email not sent
-📈 Key Findings
+### 🔍 Severity Distribution
+- 🟥 **Critical:** 2 Bugs (50%)  
+- 🟧 **High:** 1 Bug (25%)  
+- 🟨 **Medium:** 1 Bug (25%)
 
-All main flows (login, register, cart, checkout) function as expected.
+---
 
-Some email and security-related issues were found.
+## ⚙️ 5. Major Findings
+1. **Email System Defects:** Password reset and order confirmation emails are not being delivered.  
+2. **Security Flaw:** The system does not lock the user account after repeated failed login attempts.  
+3. **UI Improvement:** Missing password visibility toggle impacts usability.  
+4. **Overall Stability:** Core user flows (search, add to cart, checkout) functioned correctly with minor UI issues.
 
-UI and navigation are smooth with no major usability issues.
+---
 
-🧾 Overall Result
+## 📈 6. Recommendations
+- Implement and test **email notification fixes**.
+- Add **account lock mechanism** for failed logins.
+- Enhance **UI/UX** by including password visibility toggle.
+- Conduct **regression testing** after applying all fixes.
+- Optionally perform **performance & API testing** in future iterations.
 
-✅ Application Status: Stable
-⚠️ Pending Issues: 4 open bugs (to be fixed before release)
-📊 Quality Rating: 90% functional stability
+---
 
-💡 Recommendations
+## ✅ 7. Conclusion
+All **critical business workflows** have been successfully verified.  
+Despite a few medium and high-severity issues, the system remains **functionally stable** and suitable for demonstration or user acceptance testing (UAT).  
+Further testing is recommended post-defect resolution to ensure system reliability.
 
-Fix critical email and login security bugs.
+---
 
-Add “Show/Hide Password” option for better UX.
-
-Re-run regression test after bug fixes.
+**📅 Date:** November 2025  
+**👤 Tester:** Ahmed Abozead  
+**🧑‍💻 Role:** QA Tester  
+**📍 Testing Type:** Manual Functional Testing  
